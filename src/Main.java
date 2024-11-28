@@ -7,33 +7,45 @@ public class Main {
         System.out.println("1~12gacha bulgan sonni kiriting:");
         int month = scanner.nextInt();
 
-        if (month == 1) {
-            System.out.println("YAN");
-        } else if (month == 2) {
-            System.out.println("FEB");
-        } else if (month == 3) {
-            System.out.println("MART");
-        } else if (month == 4) {
-            System.out.println("APREL");
-        } else if (month == 5) {
-            System.out.println("MAY");
-        } else if (month == 6) {
-            System.out.println("IYUN");
-        } else if (month == 7) {
-            System.out.println("IYUL");
-        } else if (month == 8) {
-            System.out.println("AVG");
-        } else if (month == 9) {
-            System.out.println("SEP");
-        } else if (month == 10) {
-            System.out.println("OCT");
-        } else if (month == 11) {
-            System.out.println("NOV");
-        } else if (month == 12) {
-            System.out.println("DEC");
-        } else {
-            System.out.println("notogri raqam kiritikgan: ");
-        }
+        switch (month){
+            case 1:
+                System.out.println("YAN");
+                break;
+            case 2 :
+                System.out.println("FEB");
+                break;
+            case 3 :
+                System.out.println("MAR");
+                break;
+            case 4:
+                System.out.println("APR");
+                break;
+            case 5:
+                System.out.println("MAY");
+                break;
+            case 6:
+                System.out.println("IYUN");
+                break;
+            case 7:
+                System.out.println("IYUL");
+                break;
+            case 8:
+                System.out.println("AVG");
+                break;
+            case 9:
+                System.out.println("SEP");
+                break;
+            case 10:
+                System.out.println("OCT");
+                break;
+            case 11:
+                System.out.println("NOV");
+                break;
+            case 12:
+                System.out.println("DEC");
+                break;
+            default: System.out.println("XATO");
+        };
         scanner.close();
         }
     };
